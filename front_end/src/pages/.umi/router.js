@@ -2,7 +2,7 @@ import React from 'react';
 import { Router as DefaultRouter, Route, Switch } from 'react-router-dom';
 import dynamic from 'umi/dynamic';
 import renderRoutes from 'umi/_renderRoutes';
-import RendererWrapper0 from '/Users/skjin/CMPE_Folder/cmpe285/final-proj/src/pages/.umi/LocaleWrapper.jsx'
+import RendererWrapper0 from '/Users/skjin/CMPE_Folder/285_final_git/front_end/src/pages/.umi/LocaleWrapper.jsx'
 
 let Router = require('dva/router').routerRedux.ConnectedRouter;
 
@@ -40,7 +40,7 @@ let routes = [
         "_title_default": "final-proj"
       },
       {
-        "component": () => React.createElement(require('/Users/skjin/CMPE_Folder/cmpe285/final-proj/node_modules/umi-build-dev/lib/plugins/404/NotFound.js').default, { pagesPath: 'src/pages', hasRoutesInConfig: false }),
+        "component": () => React.createElement(require('/Users/skjin/CMPE_Folder/285_final_git/front_end/node_modules/umi-build-dev/lib/plugins/404/NotFound.js').default, { pagesPath: 'src/pages', hasRoutesInConfig: false }),
         "_title": "final-proj",
         "_title_default": "final-proj"
       }
@@ -49,7 +49,7 @@ let routes = [
     "_title_default": "final-proj"
   },
   {
-    "component": () => React.createElement(require('/Users/skjin/CMPE_Folder/cmpe285/final-proj/node_modules/umi-build-dev/lib/plugins/404/NotFound.js').default, { pagesPath: 'src/pages', hasRoutesInConfig: false }),
+    "component": () => React.createElement(require('/Users/skjin/CMPE_Folder/285_final_git/front_end/node_modules/umi-build-dev/lib/plugins/404/NotFound.js').default, { pagesPath: 'src/pages', hasRoutesInConfig: false }),
     "_title": "final-proj",
     "_title_default": "final-proj"
   }

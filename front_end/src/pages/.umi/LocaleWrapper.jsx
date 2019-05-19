@@ -25,7 +25,7 @@ defaultAntd = defaultAntd.default || defaultAntd;
 const localeInfo = {
   'en-US': {
     messages: {
-      ...require('/Users/skjin/CMPE_Folder/cmpe285/final-proj/src/locales/en-US.js').default,
+      ...require('/Users/skjin/CMPE_Folder/285_final_git/front_end/src/locales/en-US.js').default,
     },
     locale: 'en-US',
     antd: require('antd/lib/locale-provider/en_US'),
@@ -34,7 +34,7 @@ const localeInfo = {
   },
   'zh-CN': {
     messages: {
-      ...require('/Users/skjin/CMPE_Folder/cmpe285/final-proj/src/locales/zh-CN.js').default,
+      ...require('/Users/skjin/CMPE_Folder/285_final_git/front_end/src/locales/zh-CN.js').default,
     },
     locale: 'zh-CN',
     antd: require('antd/lib/locale-provider/zh_CN'),
